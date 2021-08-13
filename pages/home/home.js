@@ -1,18 +1,35 @@
 // pages/home/home.js
+import { getData } from '../../service/home'
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    banners: [],
+    recommends: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    //请求轮播图数据
+    getData().then(res => {
+      const banners = res.data.banners;
+      const recommends = res.data.recommends;
+      this.setData({
+        banners,
+        recommends
+      })
+      // console.log(res)
+      // console.log(banners)
+      // console.log(recommends)
 
+    }).catch(err => {
+      console.log(err)
+    })
   },
 
   /**

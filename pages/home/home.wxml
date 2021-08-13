@@ -1,2 +1,4 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+
+<!-- 展示轮播图 -->
+<s-swiper banners="{{banners}}"></s-swiper>
