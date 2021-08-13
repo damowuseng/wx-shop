@@ -2,3 +2,6 @@
 
 <!-- 展示轮播图 -->
 <s-swiper banners="{{banners}}"></s-swiper>
+
+<!-- recommends数据展示 -->
+<s-recommend recommends="{{recommends}}" />

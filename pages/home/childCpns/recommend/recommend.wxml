@@ -1,0 +1,11 @@
+<!--pages/home/childCpns/recommend.wxml-->
+
+<!-- 推荐信息组件化 -->
+<view class="recommend">
+  <block wx:for="{{recommends}}" wx:key='index'>
+    <view class="recommend-item">
+      <image class="image" src="{{item.recommend}}"/>
+      <view class="text"><text>{{item.title}}</text></view>
+    </view>
+  </block>
+</view>
