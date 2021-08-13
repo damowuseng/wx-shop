@@ -1,7 +1,9 @@
 {
   "usingComponents": {
     "s-swiper": "/components/swiper/swiper",
-    "s-recommend": "./childCpns/recommend/recommend"
+    "s-recommend": "./childCpns/recommend/recommend",
+    "s-popular": "./childCpns/popular/popular",
+    "s-tab-control": "/components/tab-control/tab-control"
   },
   "navigationBarTitleText": "购物街"
 }

@@ -5,3 +5,11 @@
 
 <!-- recommends数据展示 -->
 <s-recommend recommends="{{recommends}}" />
+
+<!-- 本周流行 -->
+<!-- 原版用的就是一张图片所以这个直接用图片 -->
+<s-popular/>
+
+<!-- tab-control -->
+<s-tab-control titles="{{['流行','新款','精选']}}"
+                bind:itemClick="handleTabClick"/>

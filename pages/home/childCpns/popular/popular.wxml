@@ -1,0 +1,7 @@
+<!--pages/home/childCpns/popular/popular.wxml-->
+
+<!-- 原版用的就是一张图片所以这个直接用图片 -->
+<view>
+  <image class="p-image" src="/assets/home/pop_bg.jpg" mode="widthFix"/>
+</view>
+
