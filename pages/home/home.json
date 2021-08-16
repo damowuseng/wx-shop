@@ -3,7 +3,8 @@
     "s-swiper": "/components/swiper/swiper",
     "s-recommend": "./childCpns/recommend/recommend",
     "s-popular": "./childCpns/popular/popular",
-    "s-tab-control": "/components/tab-control/tab-control"
+    "s-tab-control": "/components/tab-control/tab-control",
+    "s-goods": "/components/goods/goods"
   },
   "navigationBarTitleText": "购物街"
 }

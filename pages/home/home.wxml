@@ -10,6 +10,10 @@
 <!-- 原版用的就是一张图片所以这个直接用图片 -->
 <s-popular/>
 
+<!-- 商品栏 -->
 <!-- tab-control -->
-<s-tab-control titles="{{['流行','新款','精选']}}"
+<s-tab-control titles="{{titles}}"
                 bind:itemClick="handleTabClick"/>
+
+<!-- 商品展示 -->
+<s-goods goods="{{goods[currentType].list}}"/>
