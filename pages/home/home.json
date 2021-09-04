@@ -4,7 +4,8 @@
     "s-recommend": "./childCpns/recommend/recommend",
     "s-popular": "./childCpns/popular/popular",
     "s-tab-control": "/components/tab-control/tab-control",
-    "s-goods": "/components/goods/goods"
+    "s-goods": "/components/goods/goods",
+    "s-back-top": "/components/back-top/back-top"
   },
   "navigationBarTitleText": "购物街"
 }

@@ -17,3 +17,6 @@
 
 <!-- 商品展示 -->
 <s-goods goods="{{goods[currentType].list}}"/>
+
+<!-- 返回顶部 -->
+<s-back-top/>
